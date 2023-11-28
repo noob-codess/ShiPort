@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: right;
+    border: 1px solid rgb(227, 7, 7);
+    
+}
+
+header a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(103, 91, 91);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Change to column to stack items vertically */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(46, 15, 15);
+}
+
+.image-container {
+    background-color: #a97d7d;
+    display: flex;
+   
+    
+    
+  
+    border: 1px solid rgb(255, 5, 5);
+}
+
+.circular-image-holder {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.circular-image-holder img {
+    width: 100%;
+    height: auto;
+}
+
+.short-description-container {
+    text-align: center;
+    background-color: #e3a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    height: fit-content; /* Adjust the height as needed */
+    margin-top: 2rem;
+    border: 1px solid rgb(20, 13, 13);
+}
+
+.short-description {
+    text-align: center;
+}
